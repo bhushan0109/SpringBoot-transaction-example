@@ -23,4 +23,20 @@ public class FlightController {
 		ResponseDTO responseDTO = new ResponseDTO("flight booked successfully", service.bookFlightTicket(request));
 		return new ResponseEntity<ResponseDTO>(responseDTO, HttpStatus.OK);
 	}
+//	{
+//	    "passengerInfo": {
+//	        "arrivalTime": "string",
+//	        "destination": "string",
+//	        "email": "string",
+//	        "fare": 1000000.0,
+//	        "name": "string",
+//	        "pickupTime": "string",
+//	        "source": "string",
+//	        "travelDate": "1-12-2022"
+//	    },
+//	    "paymentInfo": {
+//	        "accountNo": "acc1",
+//	        "cardType": "debit"
+//	    }
+//	}
 }
